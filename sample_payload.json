@@ -1,0 +1,34 @@
+{
+  "planning_horizon_days": 14,
+  "service_level": 0.95,
+  "custom_factors": {
+    "promo_week": 1.15
+  },
+  "stores": [
+    {
+      "store_id": "NYC-001",
+      "capacity_units": 180,
+      "demand_index": 1.2,
+      "assortment": [
+        {
+          "product_id": "DENIM-100",
+          "size": "30",
+          "recent_sales_units": 80,
+          "on_hand_units": 18,
+          "lead_time_days": 7,
+          "seasonality_multiplier": 1.1,
+          "strategic_weight": 1.2
+        },
+        {
+          "product_id": "DENIM-100",
+          "size": "32",
+          "recent_sales_units": 65,
+          "on_hand_units": 22,
+          "lead_time_days": 7,
+          "seasonality_multiplier": 1.1,
+          "strategic_weight": 1.0
+        }
+      ]
+    }
+  ]
+}
